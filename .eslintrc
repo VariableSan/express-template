@@ -9,13 +9,18 @@
     "sourceType": "module",
     "ecmaVersion": 2020
   },
-  "plugins": ["tslint:recommended"],
+  "plugins": [
+    "tslint:recommended"
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
-    "indent": ["error", 2]
+    "indent": [
+      "error",
+      2
+    ]
   }
 }
